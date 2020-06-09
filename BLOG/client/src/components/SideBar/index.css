@@ -1,0 +1,5 @@
+.side-wrapper{
+  border-right: 1px solid #ebedf0;
+  height: calc(100vh - 90px);
+  /* overflow: hidden; */
+}

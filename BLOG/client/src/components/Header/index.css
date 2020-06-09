@@ -1,0 +1,24 @@
+.header-warpper{
+  line-height: 46px;
+  position: relative;
+  box-shadow: 0 2px 8px #f0f1f2;
+  z-index: 10;
+}
+
+.ant-col{
+  text-align: center;
+}
+
+.header-name{
+  font-size: 18px;
+}
+
+.header-name-title{
+  padding-left: 6px;
+}
+
+.ant-menu{
+  border-bottom: none;
+  position: absolute;
+  right: 50px;
+}
