@@ -14,6 +14,7 @@ const ArticleList = (props) => {
     axios({
       method: 'get',
       url: servicePath.getArticleList,
+      header:{   'Access-Control-Allow-Origin':'*' },
       withCredentials: true
     }).then(res => {
       setList(res.data.list)
@@ -102,7 +103,7 @@ const ArticleList = (props) => {
                       >修改</Button>&nbsp;
 
                       <Button 
-                      onClick={() => delArticle(item.id)}
+                      onClick={() => delArticle(`${item.id}+${item.type_id}`)}
                       >删除 </Button>
                     </Col>
                 </Row>

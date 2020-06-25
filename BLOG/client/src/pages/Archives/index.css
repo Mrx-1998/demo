@@ -1,0 +1,9 @@
+.archives-wrapper{
+  overflow-x: hidden;
+  padding-top: 5rem;
+}
+.not-msg{
+  color: pink;
+  font-size: 1.2rem;
+  font-weight: 700;
+}

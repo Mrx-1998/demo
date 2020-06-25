@@ -1,0 +1,9 @@
+.Categories-title{
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+.Categories-tags span{
+  margin: 0 4px;
+  border-radius: 3px;
+}

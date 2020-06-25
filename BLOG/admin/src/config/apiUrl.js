@@ -1,4 +1,6 @@
-let ipUrl = 'http://127.0.0.1:7001/admin/' 
+// let ipUrl = 'http://127.0.0.1:7001/admin/' 
+let ipUrl = 'http://106.55.40.232:7001/admin/' 
+
 
 let servicePath = {
   toLogin: ipUrl + 'toLogin', // 登录
@@ -9,7 +11,8 @@ let servicePath = {
   getArticleById: ipUrl + 'getArticleById/',
   updateArticle: ipUrl + 'updateArticle', // 修改文章
   getType: ipUrl + 'getType',
-  addTypeName: ipUrl + 'addTypeName' 
+  addTypeName: ipUrl + 'addTypeName', 
+  addAbout: ipUrl + 'addAbout' 
 }
 
 export default servicePath;

@@ -9,8 +9,6 @@ const Login = (props) => {
   const [isLoading, setIsLoading] = useState(false)
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
-  console.log(username, password);
-  
 
   const checkLogin = () => {
     setIsLoading(true)
@@ -37,6 +35,7 @@ const Login = (props) => {
       method: 'post',
       url: servicePath.toLogin,
       data: data,
+      header:{'Access-Control-Allow-Origin':'*' },
       withCredentials: true
     }).then(res => {
       setIsLoading(false)

@@ -12,6 +12,7 @@ const ArticleType = (props) => {
         axios({
             method: 'get',
             url: servicePath.getType,
+            header:{   'Access-Control-Allow-Origin':'*' },
             withCredentials: true
         }).then(res => {
             console.log(res.data.data);
@@ -31,7 +32,7 @@ const ArticleType = (props) => {
                     <b>typeName</b>
                 </Col>
                 <Col span={6}>
-                    <b>ord_id</b>
+                    <b>文章数目</b>
                 </Col>
                 <Col span={6}>
                     <b>操作</b>

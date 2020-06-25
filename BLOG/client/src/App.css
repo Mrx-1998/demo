@@ -1,3 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  background: inherit;
+}
+
+li{
+  margin: 4px 4px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+  padding: 0;
+}
+
 .content-warpper{
   padding-top: 40px;
+}
+
+html{
+  overflow-y: scroll;
+  overflow-x: hidden;
 }

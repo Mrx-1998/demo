@@ -18,6 +18,7 @@ const AddType = () => {
       method: 'post',
       url: sevicePath.addTypeName,
       data,
+      header:{   'Access-Control-Allow-Origin':'*' },
       withCredentials: true
     }).then(res => {
       console.log(res);

@@ -1,0 +1,33 @@
+pre{
+  display: block;
+  background-color: #283646 !important;
+  padding: .5rem !important;
+  overflow-y: auto;
+  font-weight: 300;
+  font-family: Menlo, monospace;
+  border-radius: .3rem;
+}
+
+pre >code{
+  border:0px !important;
+  background-color: #283646 !important;
+  color:#FFF;
+}
+
+code {
+  background-color:#fff5f5;
+  border-radius:3px;
+  font-size: 12px;
+  padding: 2px 4px;
+  color:#ff502c;
+}
+
+.AboutWrapper{
+  padding: 0 23px;
+  margin: 15px 0;
+  text-align: left;
+  color: #283646;
+}
+.blog-content{
+  margin-bottom: 40px;
+}

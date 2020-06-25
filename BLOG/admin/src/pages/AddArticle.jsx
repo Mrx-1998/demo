@@ -33,6 +33,7 @@ const AddArticle = (props) => {
     axios({
       method: 'get',
       url: servicePath.getArticleType,
+      header:{   'Access-Control-Allow-Origin':'*' },
       withCredentials: true
     }).then(res => {     
       setTypeInfo(res.data.data)
