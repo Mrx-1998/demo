@@ -11,7 +11,7 @@
     "highlight.js": "^10.0.3",
     "immutable": "^4.0.0-rc.12",
     "markdown-navbar": "^1.4.2",
-    "marked": "^1.1.0",
+    "marked": "^4.0.10",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
